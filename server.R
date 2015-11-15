@@ -1,5 +1,6 @@
 library(shiny)
 library(limma)
+library(gplots)
 
 #load global gene array data
 array <- read.csv(file="spleen_DE.csv", header=T)
